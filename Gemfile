@@ -9,6 +9,10 @@ gem 'mysql2'
 gem 'devise'
 gem 'cancan'
 gem 'jquery-rails'
+gem 'haml'
+gem 'hpricot'
+gem 'ruby_parser'
+
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -28,17 +32,18 @@ group :development, :test do
 	gem 'rspec'
 	gem 'rspec-rails'
 	gem 'autotest'
-#	gem 'pg'
 	gem 'cucumber'
 	gem 'cucumber-rails'
+	gem 'cucumber-rails-training-wheels'
+	gem 'database_cleaner'
 	gem 'shoulda'
 	gem 'factory_girl'
 	gem 'factory_girl_rails'
 	gem 'annotate'
 	gem 'autotest'
-#	gem 'guard-rspec'
 	gem 'growl', '1.0.3'
 	gem 'minitest'
+	gem 'launchy'
 	gem 'rb-fsevent', '~> 0.9.1'
 end
 
